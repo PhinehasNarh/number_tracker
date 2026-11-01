@@ -4,13 +4,13 @@ from opencage.geocoder import OpenCageGeocode
 import folium
 
 # Define the phone number you want to track
-number = "+1234567890"  # Replace with the actual number you want to track
+number = "+6288704564348"  # Replace with the actual number you want to track
 
 # Parse the phone number
 phoneNumber = phonenumbers.parse(number)
 
 # OpenCage API Key
-Key = "eac2d56b30b14966baaedb7335dc02a8"  # Replace with your actual API key
+Key = "d654c8039f834cf9abb4efac2c3ca1f6"  # Replace with your actual API key
 
 # Get the location description using the geocoder module
 yourLocation = geocoder.description_for_number(phoneNumber, "en")
